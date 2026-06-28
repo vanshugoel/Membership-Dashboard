@@ -134,6 +134,46 @@ Membership-Dashboard
 ```
 
 ---
+## 🤖 Tools & Resources Used
+
+### Development Tools
+- Visual Studio Code
+- Git & GitHub
+- Postman
+- Render
+- Vercel
+
+### AI Tools
+- ChatGPT (used for debugging, deployment guidance, and code explanations)
+
+## 🚧 Challenges Encountered
+
+### 1. Frontend and Backend Deployment
+One of the biggest challenges was deploying the frontend and backend separately while ensuring seamless communication between them. This was resolved by configuring environment variables and updating API endpoints to use the deployed backend URL.
+
+### 2. MongoDB Atlas Connection
+While deploying the backend, configuring the MongoDB Atlas connection and network access settings was essential to establish a successful database connection.
+
+### 3. Responsive User Interface
+Designing a responsive dashboard that worked well across desktop, tablet, and mobile devices required multiple layout adjustments using Tailwind CSS.
+
+### 4. State Management
+Managing multiple application states such as searching, loading, editing, deleting, and theme switching required careful use of React Hooks to keep the UI synchronized with backend data.
+
+### 5. Deployment Debugging
+Debugging deployment issues related to environment variables, API endpoints, and frontend-backend integration required identifying configuration mismatches and resolving them to ensure the application functioned correctly after deployment.
+
+---
+
+## 🚀 Improvements With One More Day
+
+Given one more day, I would implement the following enhancements:
+
+- User authentication and authorization.
+- Pagination for handling large datasets efficiently.
+- Member profile picture upload functionality.
+- Attendance tracking for members.
+- Membership expiry reminders and email notifications.
 
 # ⚙️ Installation
 
