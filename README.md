@@ -1,6 +1,6 @@
 # 🏋️ Membership Dashboard
 
-A modern full-stack Membership Management Dashboard built using the **MERN Stack**. The application enables administrators to efficiently manage gym members through a clean, responsive interface with complete CRUD functionality, search capabilities, dashboard analytics, and secure backend integration.
+A modern full-stack Membership Management Dashboard built using the **MERN Stack**. The application enables administrators to efficiently manage members through a clean, responsive interface with complete CRUD functionality, search capabilities, dashboard analytics, and secure backend integration.
 
 ---
 
