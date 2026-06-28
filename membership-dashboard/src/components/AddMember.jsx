@@ -65,8 +65,8 @@ function AddMember({
 
     try {
       const url = editingMember
-        ? `http://localhost:5000/api/members/${editingMember._id}`
-        : "http://localhost:5000/api/members";
+        ? `${import.meta.env.VITE_API_URL}/members/${editingMember._id}`
+        : `${import.meta.env.VITE_API_URL}/members`;
 
       const method = editingMember ? "PUT" : "POST";
 

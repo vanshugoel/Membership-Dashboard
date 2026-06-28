@@ -22,7 +22,7 @@ function App() {
   const fetchMembers = async () => {
     try {
       setLoading(true);
-      const res = await fetch("http://localhost:5000/api/members");
+      const res = await fetch(`${import.meta.env.VITE_API_URL}/members`);
       const data = await res.json();
 
       setMembers(data);
@@ -41,7 +41,7 @@ function App() {
   const handleDelete = async () => {
     try {
       const response = await fetch(
-        `http://localhost:5000/api/members/${memberToDelete._id}`,
+        `${import.meta.env.VITE_API_URL}/members/${memberToDelete._id}`,
         {
           method: "DELETE",
         }
