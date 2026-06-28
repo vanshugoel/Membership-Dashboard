@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { toast } from "react-toastify";
-import Navbar from "./components/Navbar";
+import Navbar from "./components/NavBar";
 import DashboardCards from "./components/DashboardCards";
 import MemberList from "./components/MemberList";
 import SearchBar from "./components/SearchBar";
