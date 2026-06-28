@@ -26,8 +26,8 @@ function MemberCard({ member, onDelete, onEdit }) {
   };
 
   const membershipStyles = {
-    Basic: "bg-slate-700/30 text-slate-300",
-    Silver: "bg-gray-400/20 text-gray-300",
+    Basic: "bg-slate-700/30 text-blue-800",
+    Silver: "bg-gray-400/20 text-black",
     Gold: "bg-yellow-500/20 text-yellow-400",
     Platinum: "bg-purple-500/20 text-purple-400",
   };

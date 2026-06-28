@@ -120,7 +120,7 @@ function App() {
           {search.trim() === "" && (
             <button
               onClick={() => setIsModalOpen(true)}
-              className="w-full md:w-auto bg-blue-600 px-5 py-3 rounded-xl hover:bg-blue-700 transition"
+              className="w-full md:w-auto bg-blue-600 text-white px-5 py-3 rounded-xl hover:bg-blue-700 transition"
             >
               + Add Member
             </button>

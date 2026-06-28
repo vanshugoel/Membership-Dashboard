@@ -41,10 +41,10 @@ function AddMember({
 
     if (name === "membershipType") {
       const prices = {
-        Basic: 500,
-        Silver: 1000,
-        Gold: 1500,
-        Platinum: 2500,
+        Basic: "500",
+        Silver: "1000",
+        Gold: "1500",
+        Platinum: "2500",
       };
 
       setFormData({
@@ -155,12 +155,17 @@ function AddMember({
             />
           </div>
 
-          <input
-            type="number"
-            value={formData.membershipFee}
-            readOnly
-            className="w-full bg-slate-50 border border-slate-300 dark:border-slate-700rounded-lg p-3"
-          />
+          <div className="relative">
+            <span className="absolute left-3 top-1/2 -translate-y-1/2 bg-slate-50 dark:bg-slate-800">
+              ₹
+            </span>
+            <input
+              type="text"
+              value={formData.membershipFee}
+              readOnly
+              className="w-full bg-slate-50 dark:bg-slate-800 border border-slate-300 dark:border-slate-700 rounded-lg p-3 pl-6"
+            />
+          </div>
 
           <div className="relative">
             <select
