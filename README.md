@@ -139,6 +139,7 @@ Membership-Dashboard
 ### Development Tools
 - Visual Studio Code
 - Git & GitHub
+- MongoDB and ATLAS
 - Postman
 - Render
 - Vercel
@@ -301,23 +302,6 @@ The dashboard automatically calculates:
 * Today's Signups
 
 Revenue is computed based on membership plans.
-
----
-
-# Environment Variables
-
-Backend
-
-```
-MONGO_URI=
-PORT=
-```
-
-Frontend
-
-```
-VITE_API_URL=
-```
 
 ---
 
