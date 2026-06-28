@@ -18,7 +18,8 @@ function App() {
   const [darkMode, setDarkMode] = useState(() => {
     return localStorage.getItem("theme") !== "light";
   });
-
+  
+  console.log("API URL:", import.meta.env.VITE_API_URL);
   const fetchMembers = async () => {
     try {
       setLoading(true);
