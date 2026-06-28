@@ -22,6 +22,7 @@ A modern full-stack Membership Management Dashboard built using the **MERN Stack
 * View recently added members
 * Automatic latest-first sorting
 * Display 10 latest added or updated members
+* Three button menu enables updation and deletion
 
 ### 🔍 Search
 
